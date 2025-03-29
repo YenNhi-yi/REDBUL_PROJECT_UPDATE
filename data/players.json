@@ -1,0 +1,41 @@
+[
+    {
+        "username": "nhi",
+        "password": "admin123",
+        "unlocked_regions": [
+            "TayBacBo"
+        ],
+        "collected_cards": []
+    },
+    {
+        "username": "teo",
+        "password": "123",
+        "unlocked_regions": [
+            "TayBacBo"
+        ],
+        "collected_cards": [
+            {
+                "province": "DienBien",
+                "title": null,
+                "image": null
+            }
+        ]
+    },
+    {
+        "username": "ty",
+        "password": "456",
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo"
+        ],
+        "collected_cards": []
+    },
+    {
+        "username": "hung",
+        "password": "236",
+        "unlocked_regions": [
+            "TayBacBo"
+        ],
+        "collected_cards": []
+    }
+]

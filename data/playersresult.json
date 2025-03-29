@@ -1,0 +1,225 @@
+[
+    {
+        "username": "nhungdang",
+        "password": "admin123",
+        "score": 30,
+        "current_region": "TayBacBo",
+        "current_province": "LaiChau",
+        "answered_provinces": [
+            "HoaBinh",
+            "SonLa"
+        ],
+        "unlocked_regions": [
+            "TayBacBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa HoaBinh",
+            "The Van Hoa SonLa"
+        ]
+    },
+    {
+        "username": "nhahan",
+        "password": "admin123",
+        "score": 45,
+        "current_region": "DongBacBo",
+        "current_province": "LangSon",
+        "answered_provinces": [
+            "HoaBinh",
+            "SonLa",
+            "DienBien",
+            "LaiChau",
+            "YenBai",
+            "PhuTho",
+            "HaGiang",
+            "TuyenQuang",
+            "CaoBang"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa HaGiang",
+            "The Van Hoa CaoBang"
+        ]
+    },
+    {
+        "username": "nhinty",
+        "password": "admin123",
+        "score": 76,
+        "current_region": "DongBangSongHong",
+        "current_province": "ThaiBinh",
+        "answered_provinces": [
+            "HaNoi",
+            "HaNam",
+            "NamDinh",
+            "ThaiBinh"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong"
+        ],
+        "collected_cards": [
+            "The Van Hoa HaNoi",
+            "The Van Hoa ThaiBinh"
+        ]
+    },
+    {
+        "username": "duyettruvirus",
+        "password": "admin123",
+        "score": 58,
+        "current_region": "BacTrungBo",
+        "current_province": "HaTinh",
+        "answered_provinces": [
+            "ThanhHoa",
+            "NgheAn"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa NgheAn"
+        ]
+    },
+    {
+        "username": "chanthanhdoilaigiday",
+        "password": "admin123",
+        "score": 62,
+        "current_region": "NamTrungBo",
+        "current_province": "PhuYen",
+        "answered_provinces": [
+            "DaNang",
+            "QuangNam",
+            "BinhDinh",
+            "PhuYen"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo",
+            "NamTrungBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa BinhDinh",
+            "The Van Hoa PhuYen"
+        ]
+    },
+    {
+        "username": "maiyeuuel",
+        "password": "admin123",
+        "score": 39,
+        "current_region": "TayNguyen",
+        "current_province": "DakNong",
+        "answered_provinces": [
+            "KonTum",
+            "GiaLai"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo",
+            "NamTrungBo",
+            "TayNguyen"
+        ],
+        "collected_cards": [
+            "The Van Hoa GiaLai"
+        ]
+    },
+    {
+        "username": "bedepso1",
+        "password": "admin123",
+        "score": 70,
+        "current_region": "DongNamBo",
+        "current_province": "TPHoChiMinh",
+        "answered_provinces": [
+            "TPHoChiMinh",
+            "BinhDuong",
+            "DongNai"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo",
+            "NamTrungBo",
+            "TayNguyen",
+            "DongNamBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa TPHoChiMinh"
+        ]
+    },
+    {
+        "username": "binhtinhtutinchienthang",
+        "password": "admin123",
+        "score": 64,
+        "current_region": "DongBangSongCuuLong",
+        "current_province": "TienGiang",
+        "answered_provinces": [
+            "AnGiang",
+            "BenTre",
+            "CanTho",
+            "TienGiang"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo",
+            "NamTrungBo",
+            "TayNguyen",
+            "DongNamBo",
+            "DongBangSongCuuLong"
+        ],
+        "collected_cards": [
+            "The Van Hoa CanTho"
+        ]
+    },
+    {
+        "username": "diepntt",
+        "password": "admin123",
+        "score": 68,
+        "current_region": "DongBangSongHong",
+        "current_province": "HaiDuong",
+        "answered_provinces": [
+            "HaNoi",
+            "HaiDuong"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong"
+        ],
+        "collected_cards": [
+            "The Van Hoa HaiDuong"
+        ]
+    },
+    {
+        "username": "contraicungcuame",
+        "password": "admin123",
+        "score": 42,
+        "current_region": "NamTrungBo",
+        "current_province": "BinhThuan",
+        "answered_provinces": [
+            "BinhDinh",
+            "PhuYen",
+            "BinhThuan"
+        ],
+        "unlocked_regions": [
+            "TayBacBo",
+            "DongBacBo",
+            "DongBangSongHong",
+            "BacTrungBo",
+            "NamTrungBo"
+        ],
+        "collected_cards": [
+            "The Van Hoa BinhThuan"
+        ]
+    }
+]

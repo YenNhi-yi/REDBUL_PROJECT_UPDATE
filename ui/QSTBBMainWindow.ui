@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>961</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/qstbb.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>270</y>
+      <width>961</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/nhint/.designer/images/bgqs.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_A">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-weight: bold;
+    background-color: rgb(162, 23, 23);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+QPushButton:hover {
+    background-color: #D62828;
+    color: yellow;
+}
+
+QPushButton:pressed {
+    background-color: #B02A2A;
+}</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_A">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>250</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_B">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>300</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_C">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>360</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_D">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>410</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Qs">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>190</y>
+      <width>531</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_B">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>300</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-weight: bold;
+    background-color: rgb(162, 23, 23);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+QPushButton:hover {
+    background-color: #D62828;
+    color: yellow;
+}
+
+QPushButton:pressed {
+    background-color: #B02A2A;
+}</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_C">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-weight: bold;
+    background-color: rgb(162, 23, 23);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+QPushButton:hover {
+    background-color: #D62828;
+    color: yellow;
+}
+
+QPushButton:pressed {
+    background-color: #B02A2A;
+}</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_D">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>400</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-weight: bold;
+    background-color: rgb(162, 23, 23);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+QPushButton:hover {
+    background-color: #D62828;
+    color: yellow;
+}
+
+QPushButton:pressed {
+    background-color: #B02A2A;
+}</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,77 @@
+{
+    "TayBacBo": [
+        "DienBien",
+        "LaiChau",
+        "SonLa",
+        "HoaBinh",
+        "YenBai",
+        "LaoCai"
+    ],
+    "DongBacBo": [
+        "CaoBang",
+        "LangSon",
+        "ThaiNguyen",
+        "PhuTho",
+        "TuyenQuang",
+        "QuangNinh",
+        "BacGiang"
+    ],
+    "DongBangSongHong": [
+        "HaNoi",
+        "HaiPhong",
+        "NamDinh",
+        "NinhBinh",
+        "HaNam",
+        "HungYen",
+        "ThaiBinh",
+        "VinhPhuc",
+        "BacNinh"
+    ],
+    "BacTrungBo": [
+        "ThanhHoa",
+        "NgheAn",
+        "HaTinh",
+        "QuangBinh",
+        "QuangTri",
+        "ThuaThienHue"
+    ],
+    "DuyenHaiNamTrungBo": [
+        "DaNang",
+        "QuangNam",
+        "QuangNgai",
+        "BinhDinh",
+        "PhuYen",
+        "KhanhHoa",
+        "NinhThuan",
+        "BinhThuan"
+    ],
+    "TayNguyen": [
+        "KonTum",
+        "GiaLai",
+        "DakLak",
+        "DakNong",
+        "LamDong"
+    ],
+    "DongNamBo": [
+        "HoChiMinh",
+        "BinhPhuoc",
+        "BinhDuong",
+        "DongNai",
+        "TayNinh",
+        "BaRiaVungTau"
+    ],
+    "DongBangSongCuuLong": [
+        "LongAn",
+        "TienGiang",
+        "BenTre",
+        "TraVinh",
+        "VinhLong",
+        "CanTho",
+        "HauGiang",
+        "SocTrang",
+        "AnGiang",
+        "KienGiang",
+        "BacLieu",
+        "CaMau"
+    ]
+}

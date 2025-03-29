@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Background">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-15</y>
+      <width>960</width>
+      <height>540</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/admin.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBoxMenuDetails">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>411</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(242, 124, 34);
+color: rgb(170, 0, 0);</string>
+    </property>
+    <property name="title">
+     <string>Menu Details</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <widget class="QLabel" name="label_Level_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Question">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Question:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_OptionA">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Option A:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_OptionB">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Option B:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_OptionC">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Option C:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_OptionD">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Option D:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Answer">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Answer:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Region">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Region:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_Region">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <item>
+      <property name="text">
+       <string>Tây Bắc Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đông Bắc Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đồng bằng sông Hồng</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bắc Trung Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nam Trung Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tây Nguyên</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đông Nam Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tây Nam Bộ</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEditQuestion">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditOptionA">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>130</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Level">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Level:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditOptionB">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>160</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditOptionC">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditOptionD">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>220</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAnswer">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>250</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_Level">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>60</y>
+       <width>301</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>Easy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hard</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_Region_2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Province:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_Province">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>30</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <item>
+      <property name="text">
+       <string>Điện Biên</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lai Châu</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sơn La </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hòa Bình</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yên Bái</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lào Cai</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAnswer_Link">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>280</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_InputCard">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-weight: bold;
+    background-color: rgb(162, 23, 23);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+QPushButton:hover {
+    background-color: #D62828;
+    color: yellow;
+}
+
+QPushButton:pressed {
+    background-color: #B02A2A;
+}</string>
+     </property>
+     <property name="text">
+      <string>Card:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>421</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);</string>
+    </property>
+    <property name="title">
+     <string>Question bank</string>
+    </property>
+    <widget class="QLabel" name="label_Filter">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f27c22;&quot;&gt;Filter by:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_RegionFilter">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>301</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">selection-background-color: rgb(85, 170, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Tây Bắc Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đông Bắc Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đồng bằng sông Hồng</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bắc Trung Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nam Trung Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tây Nguyên</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Đông Nam Bộ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tây Nam Bộ</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTableWidget" name="tableWidgetList">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>401</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Province</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Question</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Option A</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Option B</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Option C</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Option D</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Answer</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Card</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Level</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Menu">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>411</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);</string>
+    </property>
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_Input">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Input</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Delete">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Update">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_CreateTest">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>30</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Create test</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>947</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuList_all_players">
+    <property name="title">
+     <string>List all players</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuList_all_region">
+    <property name="title">
+     <string>List all region</string>
+    </property>
+    <addaction name="actionT_y_B_c_B"/>
+    <addaction name="action_ng_B_c_B"/>
+   </widget>
+   <addaction name="menuList_all_players"/>
+   <addaction name="menuList_all_region"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionT_y_B_c_B">
+   <property name="text">
+    <string>Tây Bắc Bộ</string>
+   </property>
+  </action>
+  <action name="action_ng_B_c_B">
+   <property name="text">
+    <string>Đông Bắc Bộ</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
